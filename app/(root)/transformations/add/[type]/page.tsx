@@ -1,5 +1,5 @@
 import Header from "@/components/shared/Header";
-import { SearchParamProps, TransformationTypeKey } from "@/types";
+
 import React from "react";
 import { transformationTypes } from "@/constants";
 import TransformationForm from "@/components/shared/TransformationForm";

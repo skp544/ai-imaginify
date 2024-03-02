@@ -1,7 +1,6 @@
-// ==== USER PARAMS ====
+/* eslint-disable no-unused-vars */
 
-import { IImage } from "@/lib/database/models/image.model";
-
+// ====== USER PARAMS
 declare type CreateUserParams = {
   clerkId: string;
   email: string;
@@ -18,8 +17,7 @@ declare type UpdateUserParams = {
   photo: string;
 };
 
-// ===== IMAGE PARAMS =====
-
+// ====== IMAGE PARAMS
 declare type AddImageParams = {
   image: {
     title: string;
@@ -73,8 +71,7 @@ declare type Transformations = {
   removeBackground?: boolean;
 };
 
-// ===== TRANSACTION PARAMS =====
-
+// ====== TRANSACTION PARAMS
 declare type CheckoutTransactionParams = {
   plan: string;
   credits: number;
@@ -98,8 +95,7 @@ declare type TransformationTypeKey =
   | "recolor"
   | "removeBackground";
 
-// ===== URL QUERY PARAMS =====
-
+// ====== URL QUERY PARAMS
 declare type FormUrlQueryParams = {
   searchParams: string;
   key: string;
